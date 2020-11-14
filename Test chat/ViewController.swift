@@ -24,12 +24,12 @@ class ChatViewController: UIViewController {
     private let messageInputView: UIView = {
         let view = UIView()
         view.backgroundColor = UIColor(white: 1, alpha: 0.8)
-        view.translatesAutoresizingMaskIntoConstraints = false
+      //  view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
     private let messageTextField: UITextField = {
         let field = UITextField()
-        field.translatesAutoresizingMaskIntoConstraints = false
+       // field.translatesAutoresizingMaskIntoConstraints = false
         field.enablesReturnKeyAutomatically = true
         field.borderStyle = .roundedRect
         return field
