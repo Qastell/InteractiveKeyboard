@@ -7,3 +7,5 @@ interactive keyboardDismissMode using inputAccessoryView
 4. setup input container with UITextField or UITextView in screen bottom
 5. override `inputAccessoryView` and return input container
 6. enjoy
+
+author https://github.com/romdevios/simpleInteractiveKeyboardDismiss
